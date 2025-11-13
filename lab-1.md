@@ -64,6 +64,7 @@ oc whoami
 ```bash
 oc new-project customer-demo
 oc get projects
+oc project customer-demo
 ```
 
 ### GUI
