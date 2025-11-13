@@ -80,6 +80,10 @@ oc get projects
 ```bash
 oc new-app nginxinc/nginx-unprivileged --name=webapp
 ```
+Get the POD detials info, IP address, Port Number, Image Source etc
+```bash
+oc get pod pod-name -o yaml
+```
 
 ### GUI
 
