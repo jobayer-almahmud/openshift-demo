@@ -43,7 +43,11 @@ oc login https://api.cluster-hmp6f.hmp6f.sandbox2076.opentlc.com:6443 -u admin -
 ```bash
 oc whoami
 ```
+3. Verify your Infrastracture:
 
+```bash
+oc get nodes
+```
 ### GUI
 
 1. Open your browser and navigate to the OpenShift Web Console:
