@@ -43,15 +43,15 @@ Download OC Client: [https://mirror.openshift.com/pub/openshift-v4/clients/oc/la
    ```
 
 2. Login with credentials:
-   - Username: `admin`
-   - Password: `admin`
+   - Username: `userX`
+   - Password: `openshift`
 
 ### CLI Method
 
 Login to your cluster:
 
 ```bash
-oc login https://api.cluster-5d8xx.5d8xx.sandbox2826.opentlc.com:6443 -u admin -p admin
+oc login https://api.cluster-5d8xx.5d8xx.sandbox2826.opentlc.com:6443 -u userX -p openshift
 ```
 
 Verify your login:
